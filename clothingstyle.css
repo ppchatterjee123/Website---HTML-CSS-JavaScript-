@@ -1,0 +1,236 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+#container {
+    
+   /* border: 2px solid black;
+    border-color: #3498DB; 
+    height: 120px; */
+    margin: 0 auto;
+}
+h1 a{
+    font-size:50px;
+    font-weight:100;
+    color:  #D86A2B;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 655px;
+}
+
+
+#searchbox {
+    float: right;
+    background: -webkit-linear-gradient(white, white , white );
+    background: -o-linear-gradient(white, white , white );
+    background: -moz-linear-gradient(white, white , white );
+    background: -ms-linear-gradient(white, white , white );
+    background:     linear-gradient(white, white , white );
+    width: 300px;
+    height:50px;
+    padding: 20px 30px 0 30px;
+    margin: 0px;
+
+}
+
+#header{
+    height: 100px;
+    padding: 20px 20px;
+}
+
+#brand {
+    float: left;
+}
+
+
+.text {
+   float: left;
+    width: 200px;
+    padding: 5px;
+    font-size:15px;
+    color: 	solid black  ;
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid black;
+    
+}
+
+.submit {
+    float: right ;
+    padding: 5px;
+    font-weight: bold;
+    color: #FF7C00;
+    background: light blue;
+    font-size: 15px;
+    
+}
+
+.clear {
+    clear: both; 
+}
+#menu{
+    height: 120px;
+    width: 400px
+    background: -webkit-linear-gradient(white, white , white );
+    background: -o-linear-gradient(white, white , white );
+    background: -moz-linear-gradient(white, white , white );
+    background: -ms-linear-gradient(white, white , white  );
+    background:     linear-gradient(white, white , white  );
+    padding: 2px 0 0 0px ;
+}
+
+ul{
+    list-style: none;
+   
+}
+#menu ul li{
+    float: left;
+    padding: 30px 20px;
+    height: 30px;
+    border-right: 2px solid black;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+    float: right;
+}
+#menu ul li a{
+   text-decoration: underline overline dotted ;
+    text-transform: : uppercase;
+    font-size: 27px;
+    color: black;
+    line-height: 20px;
+    padding: 400px 170px 0 0px;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+/* #menu ul li a:hover, #menu ul li a.active{ */
+    #menu ul li a:hover{
+  font-size: 32px;
+    font-weight: bolder;
+    color:#FF7C00;
+    
+}
+
+#introduction{
+    background: linear-gradient(#4E4E4E,#4E4E4E,#4E4E4E); 
+    padding: 20px;
+    margin 20px 0;
+}
+
+#introduction h3{
+    font-size:50px;
+    font-weight: normal;
+    color: white;
+    padding: 0 0 0 450px;
+}
+#introduction p{
+    
+    font-size:25px;
+    font-weight: normal;
+    color: darkblue;
+    text-align: center;
+    
+    
+}
+
+#introduction .join{
+    
+      
+    padding: 15px  ;
+    font-weight: bold;
+    color: black;
+    background: light blue;
+    font-size: 15px;
+    background: #D86A2B;
+    
+    
+}
+
+.sidebar{
+    height:500px;
+    width: 650px;
+    border: 3px solid black;
+    border-color: #3498DB; 
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.sidebar h4{
+    color: darkblue;
+    font-size: 30px;
+    
+}
+#leftsidebar ul{
+    padding-top: 1px;
+}
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 5px;
+    list-style-image: url(images/arrow.png)  ;
+}
+
+#rightsidebar ul li{
+    
+    padding: 20px 0 0px 20px;
+    list-style-image: url(images/tick.png)  ;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size:22px;
+    color: darkblue;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+    }
+
+.sidebar ul li a:hover{
+    text-decoration: none;
+    color:darkblue;
+    font-size: 28px;
+    font-weight: bold;
+    
+    }
+
+
+.shirt {
+    
+      display: inline-block;
+    clear: left;
+    height:100px;
+    width: 100px;
+    padding: 100px 50px 50px 50px;
+    font-size:15px;
+    color: 	solid black  ;
+    background: white url(images/shirt2.png) center no-repeat;
+    border: 1px solid white;
+    
+}
+
+#shirtless{
+    padding: 10px 100px 10px 735px;
+}
+#leftsidebar{
+    float:left;
+}
+#rightsidebar{
+    float:right;
+}
+
+.footer{
+    height: 60px;
+     background: -webkit-linear-gradient(#3498DB, #3498DB  , #3498DB );
+    background: -o-linear-gradient(#3498DB, #3498DB , #3498DB );
+    background: -moz-linear-gradient(#3498DB, #3498DB , #3498DB );
+    background: -ms-linear-gradient(#3498DB, #3498DB, #3498DB );
+    background:     linear-gradient(#3498DB, #3498DB , #3498DB );
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
+
